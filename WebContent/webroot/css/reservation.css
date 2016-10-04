@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+#affBillet{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 435px;
+    top:86px;
+    padding:20px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+label{
+	margin-right: 50px;
+	float: left;
+	width: 92px;
+
+}
+
+#span_passager{
+	background-color: #304d5f;
+	color: white;
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+input{
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	
+	margin-left: 20px;
+}
+#information_passager{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 435px;
+    top:86px;
+    padding:20px;
+    position: fixed;
+    margin-left: 523px;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#hr_billet{
+	width: 19%;
+    margin-left: -2px;
+}
+
+#billet_general{
+	background-color: #304d5f;
+	color: white;
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+#span_train{
+	margin-left: 166px;
+}
+
+div[id^=billet_detail]{
+	background-color: #304d5f;
+	color: white;
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#spanDate{
+	margin-left: 113px;
+}
+
+#bValider{
+	margin-left: 118px;
+}
+
+#bSupprimer{
+	margin-left: 198px;
+}

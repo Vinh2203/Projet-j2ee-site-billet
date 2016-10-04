@@ -1,0 +1,6 @@
+@CHARSET "ISO-8859-1";
+label[for="radio1"],label[for="radio2"],label[for="radio3"],label[for="radio4"]{
+	width: 103px;
+	font-size: 11px;
+}
+

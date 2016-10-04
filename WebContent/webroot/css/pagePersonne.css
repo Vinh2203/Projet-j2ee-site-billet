@@ -1,0 +1,89 @@
+#center {
+	margin-top: 86px;
+	padding-left: 20px;
+}
+
+.grid-item {
+	width: 140px;
+	float: left;
+	margin: 5px;
+}
+
+.grid-item--width2 {
+	width: 290px;
+}
+
+.grid-item--width3 {
+	width: 440px;
+}
+
+.grid-item--width4 {
+	width: 590px;
+}
+
+#liste_reservation {
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	position: absolute;
+	color: white;
+	background-color: #304d5f;
+}
+
+#information_item {
+	background-color: #304d5f;
+	padding-top: 10px;
+}
+
+#information_personnel {
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	width: 435px;
+	padding-bottom: 10px;
+	position: absolute;
+	color: white;
+}
+
+#liste_reservation_item {
+	border-radius: 5px;
+		padding-top: 10px;
+	
+}
+
+div[id^="reservation_item_"] {
+	padding: 20px;
+}
+
+div[id^="reservation_item_"]:HOVER {
+	background-color: #575f88;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#nombre_client {
+	margin-left: 268px;
+}
+
+div[id^="billet_"] {
+	
+}
+
+div[id^="reservation_detail_"] {
+	background-color: #ffffff;
+	height: auto;
+	display: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding: 20px;
+	color: black;
+}
+
+#billet_info_right {
+	margin-left: 310px;
+	margin-top: -28px;
+}

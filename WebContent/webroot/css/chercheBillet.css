@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+#liste_trajet{
+	top:86px;
+	position: absolute;
+	color: white;
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 600px;
+    left: 512px;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+#liste_trajet_item{
+	
+	background-color: #2D3146;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	 border-radius: 5px;
+}
+
+#titre_liste_trajet{
+	background-color: #304d5f;
+	 border-radius: 5px;
+	margin-top: 0;
+	height: 40px;
+	color: white;
+	padding: 20px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}	
+
+#modal_billet{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 435px;
+    top:86px;
+    padding:20px;
+    position: fixed;
+}
+#liste_trajet_item_prix{
+	margin-left: 450px;
+	margin-top: -28px;
+}
+input {
+	padding-left: 10px;
+}
+ div[id^="trajet_item_"]:HOVER {
+	background-color: #575f88;
+}
+div[id^="trajet_item_"]{
+	height: 36px;
+	padding: 10px;
+	
+}
+
+div[id^="billet_detail"]{
+	background-color: #ffffff;
+	height: auto;
+	width:100%;
+	display:none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	position: absolute;
+}
+
+#button_choisir{
+	width: 159px;
+	margin-left: 400px;
+}
+

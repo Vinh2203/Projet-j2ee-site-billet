@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+
+#footer{
+	height: 20px;
+}
+.menu {
+	top: 0;
+	left:0;
+	right:0;
+	position: fixed;
+	background-color: black;
+	height: 55px;
+	z-index: 600;
+}
+#menu-item{
+	top:20px;
+	left: 65%;
+	position: fixed;
+	color: white;
+	width: auto;
+}
+
+#menu-panier{
+	top:20px;
+	left: 92%;
+	position: fixed;
+	color: white;
+	width: auto;
+}
+
+#menu-home{
+	top:4px;
+	left: 0;
+	position: fixed;
+	
+	width: auto;
+}
+
+.chosen{
+	    font-family: "Avenir", Arial, sans-serif;
+}
+
+.menu a, .menu a:visited,.menu a:active {
+    text-decoration: none;
+    color: inherit;
+    font-size:14px;
+	font-family:Arial; 
+	margin-left: 10px;
+	font-family: "Avenir", Arial, sans-serif;
+}
+.menu a:hover{
+	color: #8080ff;
+}
+
+#personne {
+	top: 5px;
+	left:71px;
+	position: fixed;
+}
+
+#personne a {
+	text-decoration: none;
+}
+div.ui-datepicker {
+    font-size: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#dateRetour,#dateDept{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-left: 2px;
+    height: 26px;
+    width: 196px;
+    background-image: url(../image/calendar.png);
+    background-position: 180px 2px;
+    background-repeat: no-repeat;
+}
+
+#name_personne{
+	
+	float:left;
+	position:relative;
+	color: white;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#heureDep{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-left: 2px;
+    height: 26px;
+    width: 208px;
+}
+
+#heureRetour{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-left: 2px;
+    height: 26px;
+    width: 208px;
+}
+
+#modal_billet{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 435px;
+    top:86px;
+    padding:20px;
+    position: fixed;
+}
+
+input {
+	padding-left: 10px;
+}
+
+.grid-item {
+  width: 150px;
+  float: left;
+  margin: 5px;
+}
+
+.grid-item--width2 { width: 310px; }
+.grid-item--width3 { width: 460px; }
+.grid-item--width4 { width: 610px; }

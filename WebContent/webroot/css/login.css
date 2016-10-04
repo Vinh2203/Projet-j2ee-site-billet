@@ -1,0 +1,126 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #eee;
+}
+
+.blur {
+	-webkit-filter: blur(13px);
+	-moz-filter: blur(13px);
+	-o-filter: blur(13px);
+	-ms-filter: blur(13px);
+	filter: blur(13px);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background-image: url(../image/slide/bacthang.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#input_login {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	height: 36px;
+	width: 220px;
+	margin-bottom: -1px;
+	padding-left: 5px;
+}
+
+#input_password {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	height: 36px;
+	width: 220px;
+	padding-left: 5px;
+}
+
+.zoneLogin {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	height: auto;
+	width: 366px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -174px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	position: absolute;
+	z-index: 9999;
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-o-filter: blur(0px);
+	-ms-filter: blur(0px);
+	filter: blur(0px);
+}
+
+h1 {
+	font-size: 30px;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+#checkLogin {
+	height: 40px;
+	width: 220px;
+	padding-right: 0;
+	padding-left: 0;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	border: 1px solid;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-size: 18;
+}
+
+#loginFace {
+	height: 40px;
+	width: 95px;
+	padding-right: 0;
+	padding-left: 0;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	border: 1px solid;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-size: 18;
+}
+
+#notLogin, #inscription {
+	height: 40px;
+	width: 220px;
+	padding-right: 0;
+	padding-left: 0;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	border: 1px solid;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-size: 18;
+}
+
+#checkLogin:HOVER, #notLogin:HOVER, #loginFace:HOVER {
+	background-color: #8000ff;
+}
+
+a {
+	text-decoration: none
+}
+
+.g-signin2 {
+	margin-top: 10px;
+}
